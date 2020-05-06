@@ -5,13 +5,16 @@
 }
 
 .card {
-  margin: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.12);
+  right: 48px;
+  bottom: 48px;
   height: 56px;
   width: 460px;
-  border: 1px solid #e0ddec;
+  border: 0;
+  // border: 1px solid #e0ddec;
   box-sizing: border-box;
   border-radius: 4px;
-  position: relative;
+  position: absolute;
 
   &-text {
     position: absolute;
@@ -55,7 +58,7 @@
   }
 
   &-controls {
-    margin: 14px 0;
+    margin: 13px 0;
     position: absolute;
     left: 254px;
     width: 130px;
@@ -83,7 +86,7 @@
     background-color: #e51c23;
     position: absolute;
     right: 0;
-    top: -1px;
+    top: 0px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     display: flex;
